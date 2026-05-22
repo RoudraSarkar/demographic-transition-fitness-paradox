@@ -1,5 +1,7 @@
-# Raw data
-data/raw/
+
+# Raw data - ignore everything except README
+data/raw/*
+!data/raw/README.md
 
 # macOS - everywhere
 .DS_Store
