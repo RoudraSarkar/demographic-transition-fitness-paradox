@@ -1,0 +1,11 @@
+# Raw data
+data/raw/
+
+# macOS - everywhere
+.DS_Store
+**/.DS_Store
+
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user/
