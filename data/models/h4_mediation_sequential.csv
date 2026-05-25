@@ -1,0 +1,9 @@
+Sample,Model,Mediators,N,theta,SE,CI_lo,CI_hi,p_value
+Women,"M0 (total, no mediators)",,1461,-0.1399,0.0281,-0.1951,-0.0848,0
+Women,M1 (+attitudes),"m_trad_gender, m_profamily",1453,-0.1346,0.028,-0.1894,-0.0798,0
+Women,M2 (+attitudes +earnings),"m_trad_gender, m_profamily, m_log_earn",1046,-0.0428,0.0315,-0.1045,0.0188,0.1736
+Women,M3 (+attitudes +earnings +partner),"m_trad_gender, m_profamily, m_log_earn, m_partner",812,-0.0745,0.034,-0.1412,-0.0079,0.0284
+Men,"M0 (total, no mediators)",,1081,-0.0556,0.033,-0.1203,0.0091,0.092
+Men,M1 (+attitudes),"m_trad_gender, m_profamily",1075,-0.062,0.0334,-0.1275,0.0035,0.0635
+Men,M2 (+attitudes +earnings),"m_trad_gender, m_profamily, m_log_earn",827,-0.0911,0.0383,-0.1662,-0.0159,0.0175
+Men,M3 (+attitudes +earnings +partner),"m_trad_gender, m_profamily, m_log_earn, m_partner",678,-0.0829,0.0418,-0.1649,-0.001,0.0474
