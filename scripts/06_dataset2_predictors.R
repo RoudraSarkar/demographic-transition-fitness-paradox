@@ -68,12 +68,6 @@ vdem_country <- vdem |>
 cat("\n=== V-Dem countries found ===\n")
 print(vdem_country$country_name)
 
-# ── 2. ESS skipped (file too large, V-Dem covers cultural indicators) ────────
-
-cat("\n=== ESS skipped ===\n")
-cat("V-Dem gender equality and liberal democracy indices used instead.\n")
-ess_country <- NULL
-
 # ── 3. Load GDP per capita (OECD long format) ────────────────────────────────
 
 gdp_raw <- read_csv("data/raw/GDP per capita annual/GDP Per Capita Annual.csv",
@@ -302,3 +296,6 @@ METHODOLOGY LOG — NEW ENTRY FROM DATASET 2 BUILD
 ")
 
 cat("\nDone. Dataset 2 ready for H3 modelling.\n")
+
+readLines("~/Desktop/dissertation/scripts/06_dataset2_predictors.R") |> 
+  grep("contraceptive|SP\\.|WB\\.|wb_|wb\\.", x = _, value = TRUE)

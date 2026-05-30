@@ -20,7 +20,7 @@ library(dplyr)
 library(tidyr)
 library(fixest)
 library(ggplot2)
-library(patchwork)   # for combining plots; install.packages("patchwork") if needed
+library(patchwork)  
 
 setwd("/Users/whiz/Desktop/dissertation")
 
@@ -151,24 +151,7 @@ m1_ref_low <- feols(
 cat("\n=== M1 (ref = low, sensitivity check) ===\n")
 summary(m1_ref_low)
 
-# 4e. Population-weighted (each obs weighted by implied female pop in that cell)
-# Approximate weight: use n_age_groups as proxy if population not in etfr_data
-# If etfr_data has a population or births variable, use that instead
-if ("population" %in% names(etfr_data)) {
-  m1_weighted <- feols(
-    log_etfr ~ education | country + year,
-    data    = etfr_data,
-    weights = ~population,
-    cluster = "country"
-  )
-  cat("\n=== M1 (population-weighted) ===\n")
-  summary(m1_weighted)
-} else {
-  cat("\nNote: no population variable in etfr_data — skipping weighted model.\n")
-  cat("Consider joining from asfr_data to get denominator totals.\n")
-}
-
-# 4f. Wild cluster bootstrap SEs (more reliable with N=21 clusters)
+# 4d. Wild cluster bootstrap SEs (more reliable with N=21 clusters)
 # Use boottest or fwildclusterboot if available
 if (requireNamespace("fwildclusterboot", quietly = TRUE)) {
   library(fwildclusterboot)
@@ -184,6 +167,26 @@ if (requireNamespace("fwildclusterboot", quietly = TRUE)) {
   cat("  install.packages('fwildclusterboot')\n")
   cat("Wild bootstrap SEs recommended with only 21 clusters.\n")
 }
+
+# 4e. Population-weighted (weight by implied female population per cell)
+asfr_data <- readRDS("data/derived/asfr_data.rds")
+
+pop_weights <- asfr_data |>
+  group_by(country, year, education) |>
+  summarise(pop_weight = sum(population, na.rm = TRUE), .groups = "drop")
+
+etfr_weighted <- etfr_data |>
+  mutate(log_etfr = log(etfr)) |>
+  left_join(pop_weights, by = c("country", "year", "education"))
+
+m1_weighted <- feols(
+  log_etfr ~ education | country + year,
+  data    = etfr_weighted,
+  weights = ~pop_weight,
+  cluster = "country"
+)
+cat("\n=== M1 (population-weighted) ===\n")
+summary(m1_weighted)
 
 # ── 5. Results table ──────────────────────────────────────────────────────────
 
@@ -290,12 +293,13 @@ dir.create("data/models", showWarnings = FALSE, recursive = TRUE)
 
 saveRDS(
   list(
-    m1          = m1,
-    m2          = m2,
-    m1_balanced = m1_balanced,
-    m1_no_covid = m1_no_covid,
+    m1           = m1,
+    m2           = m2,
+    m1_balanced  = m1_balanced,
+    m1_no_covid  = m1_no_covid,
     m1_no_type_a = m1_no_type_a,
-    m1_ref_low  = m1_ref_low
+    m1_ref_low   = m1_ref_low,
+    m1_weighted  = m1_weighted
   ),
   "data/models/h1_models.rds"
 )
@@ -315,7 +319,7 @@ METHODOLOGY LOG — NEW ENTRIES FROM H1 MODELLING
     are interpreted as percentage differences in fertility by education.
 
 27. Reference category: 'medium' education. Chosen over 'low' because
-    (a) 'low' is the compositionally noisy category in 7 countries
+    (a) 'low' is the compositionally noisy category in 8 countries
     (Type A U-shape countries with Roma/ethnic minority populations),
     and (b) medium-as-reference produces two contrasts (low-vs-med,
     high-vs-med) that directly quantify the U-shape. The H1 strict
@@ -327,17 +331,10 @@ METHODOLOGY LOG — NEW ENTRIES FROM H1 MODELLING
     Standard errors clustered at country level (N=21 clusters).
     Wild bootstrap SEs reported as robustness given small N clusters.
 
-29. [To be completed after running models] H1 result: [paste
-    coefficients here]. Wald test high-vs-low: [paste result].
-    Interpretation: H1 [supported/partially rejected] — the pooled
-    low-vs-high contrast is [negative/positive/near-zero], but the
-    high-vs-medium contrast is [positive], confirming the U-shape
-    documented descriptively persists in the formal FE framework.
-
-30. Robustness checks: (a) balanced subsample (full 2007-2024 coverage,
+29. Robustness checks: (a) balanced subsample (full 2007-2024 coverage,
     N=X countries); (b) excluding 2020-2021 pandemic years; (c)
-    excluding composition-driven Type A countries (Slovakia, Slovenia,
-    Latvia, Estonia, Finland, Czechia); (d) reference category
+    (c) excluding composition-driven Type A countries (Croatia, Czechia,
+Estonia, Finland, Latvia, Poland, Slovakia, Slovenia); (d) reference category
     sensitivity (low as reference); (e) population-weighted;
     (f) wild bootstrap SEs. Results [broadly stable / vary as follows].
 ====================================================================
@@ -348,3 +345,6 @@ cat("Key quantities to note:\n")
 cat("  1. coef(m1)['educationlow']  — expected positive\n")
 cat("  2. coef(m1)['educationhigh'] — expected positive (U-shape confirmation)\n")
 cat("  3. Wald test high vs low     — sign determines H1 verdict\n")
+
+
+
