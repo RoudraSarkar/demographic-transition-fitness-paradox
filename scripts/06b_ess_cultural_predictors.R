@@ -89,8 +89,8 @@ ess_recode <- ess_clean |>
     secular_attend  = rlgatnd,                  # 1-7, 7 = never attends (already correct)
 
     # Gender egalitarianism: higher = MORE egalitarian
-    gender_wmcpwrk  = 6 - wmcpwrk,             # 1-5, 5 = disagree women should cut work
-    gender_mnrgtjb  = 6 - mnrgtjb,             # 1-5, 5 = disagree men have more right
+    gender_wmcpwrk  = wmcpwrk,             # already egalitarian, no correction
+    gender_mnrgtjb  = mnrgtjb,             # already egalitarian, no correction
 
     # Schwartz values: reverse so higher = MORE of that value
     schwartz_creative = 7 - ipcrtiv,            # 1-6, 6 = very much values creativity

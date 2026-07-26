@@ -1,7 +1,6 @@
 # ============================================================================
 # 06_dataset2_predictors.R
 # DATASET 2 (H3) — PART 2: Load and process country-level predictors
-# MSc Applied Social Data Science, TCD
 #
 # Loads raw cultural, economic, and demographic predictors from external
 # sources, harmonizes country names, computes panel-period means, and
@@ -19,7 +18,7 @@
 library(dplyr)
 library(tidyr)
 library(readr)
-library(countrycode)  # install.packages("countrycode") if needed
+library(countrycode)  
 
 setwd("/Users/whiz/Desktop/dissertation")
 
@@ -121,6 +120,7 @@ cat("\n=== Contraceptive prevalence loaded ===\n")
 cat("Rows:", nrow(contra_raw), "| Columns:", ncol(contra_raw), "\n")
 
 # Compute 2007-2024 mean
+gdp_years <- as.character(2007:2024)
 contra_years_present <- gdp_years[gdp_years %in% names(contra_raw)]
 
 if (length(contra_years_present) > 0) {
@@ -263,39 +263,3 @@ saveRDS(dataset2, "data/derived/dataset2_full.rds")
 
 cat("\nSaved to data/derived/dataset2_full.rds\n")
 
-# ── 10. Methodology log ───────────────────────────────────────────────────────
-
-cat("
-====================================================================
-METHODOLOGY LOG — NEW ENTRY FROM DATASET 2 BUILD
-====================================================================
-
-35. Dataset 2 construction (Part 2: Predictors). Country-level predictors
-    merged with outcomes from Part 1. N = 21 countries. Predictors:
-    
-    CULTURAL (V-Dem 2007–2024 means):
-    - libdem: Liberal democracy index
-    - gender_equal: Gender equality index
-    - relig_free: Freedom of religion
-    - polyarchy: Electoral democracy index
-    - egaldem: Egalitarian democracy index
-    
-    ECONOMIC (World Bank/OECD 2007–2024 means):
-    - gdp_percap: GDP per capita (constant USD)
-    - flfp: Female labor force participation rate
-    - contraceptive: Contraceptive prevalence rate
-    
-    REGIONAL/HISTORICAL:
-    - post_socialist: Binary (1 = Eastern European post-socialist)
-    - region: Categorical (Nordic, Western, Southern, Eastern, Balkan)
-    
-    Missing data handled via multiple imputation in H3 Stage 1 (XGBoost
-    handles missingness natively; Bayesian Stage 2 uses informative priors).
-    
-====================================================================
-")
-
-cat("\nDone. Dataset 2 ready for H3 modelling.\n")
-
-readLines("~/Desktop/dissertation/scripts/06_dataset2_predictors.R") |> 
-  grep("contraceptive|SP\\.|WB\\.|wb_|wb\\.", x = _, value = TRUE)

@@ -327,7 +327,7 @@ etfr_data |>
   geom_line(colour = "grey60") +
   geom_point() +
   facet_wrap(~ country, ncol = 5) +
-  labs(title = "Education-fertility gradient by country (mean across 2007-2024)",
+  labs(title = "Education-fertility gradient by country",
        y = "Period eTFR", x = NULL) +
   theme_minimal()
 

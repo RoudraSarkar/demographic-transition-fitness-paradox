@@ -1,7 +1,6 @@
 # ============================================================================
 # 07_h3_models.R (UPDATED — with ESS attitudinal predictors)
 # H3 ANALYSIS: Cultural vs Economic Explanations of SES-Fertility Gradient
-# MSc Applied Social Data Science, TCD
 #
 # Tests whether cross-country variation in the education-fertility gradient
 # is better predicted by attitudinal/cultural indicators or economic indicators.
@@ -363,6 +362,10 @@ shap_long <- as.data.frame(shap_matrix) |>
   )
 
 shap_long <- shap_long |>
+  group_by(feature) |>
+  mutate(feature_value = (feature_value - min(feature_value, na.rm = TRUE)) /
+           (max(feature_value, na.rm = TRUE) - min(feature_value, na.rm = TRUE))) |>
+  ungroup() |>
   left_join(shap_importance |> select(feature, rank), by = "feature") |>
   mutate(feature = reorder(feature, -rank))
 
@@ -397,13 +400,6 @@ for (feat in top_features) {
        xlab = feat, ylab = "SHAP value",
        main = paste("SHAP dependence:", feat))
   abline(h = 0, lty = 2, col = "grey50")
-
-  extreme_idx <- which(abs(feat_shap) > quantile(abs(feat_shap), 0.75))
-  if (length(extreme_idx) > 0) {
-    text(feat_vals[extreme_idx], feat_shap[extreme_idx],
-         labels = dataset2$country[extreme_idx],
-         pos = 3, cex = 0.6, col = "grey30")
-  }
 }
 dev.off()
 cat("Saved: output/figures/h3_shap_dependence.png\n")
@@ -742,31 +738,4 @@ cat("Does M5 (attitudinal) beat M1 (institutional)?",
 
 cat("\n══════════════════════════════════════════════════════════════════════\n")
 
-# ── Methodology log ──
-cat("
-====================================================================
-METHODOLOGY LOG — H3 ENTRIES (UPDATED)
-====================================================================
 
-36. H3 Stage 1: XGBoost + SHAP (UPDATED). Gradient-boosted regression of
-    gradient_steepness on 12 predictors: 3 attitudinal (ESS), 5 institutional
-    (V-Dem), 3 economic (OECD/WB), 1 regional. Conservative hyperparameters
-    for N=21 (max_depth=2, lambda=5, alpha=1). LOOCV for honest performance.
-    SHAP values via xgboost native predcontrib. Three-way SHAP comparison:
-    attitudinal vs institutional vs economic aggregate mean |SHAP|.
-
-37. H3 Stage 2: Bayesian linear models via brms (UPDATED). Six models:
-    (1) Institutional (V-Dem): gender_equal + relig_free
-    (2) Economic: gdp_percap + flfp
-    (3) Post-socialist only
-    (4) Combined (original): gender_equal + flfp + post_socialist
-    (5) Attitudinal (ESS): ess_secular + ess_gender_egal  [NEW]
-    (6) Updated combined: ess_secular + gdp_percap + post_socialist  [NEW]
-    All on common complete-case subset. Student-t(3,0,1) priors.
-    WAIC and LOO-CV for 6-model comparison. Convergence verified via
-    R-hat and neff_ratio for all models.
-
-====================================================================
-")
-
-cat("\nDone. H3 analysis complete (updated with ESS).\n")

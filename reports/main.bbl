@@ -1,0 +1,333 @@
+\begin{thebibliography}{}
+
+\bibitem[Andersson et~al., 2009]{andersson2009}
+Andersson, G., R{\o}nsen, M., Knudsen, L.~B., Lappeg{\aa}rd, T., Neyer, G., Skrede, K., Teschner, K., and Vikat, A. (2009).
+\newblock Cohort fertility patterns in the {N}ordic countries.
+\newblock {\em Demographic Research}, 20(14):313--352.
+
+\bibitem[Athey and Wager, 2019]{atheywager2019}
+Athey, S. and Wager, S. (2019).
+\newblock Estimating treatment effects with causal forests: An application.
+\newblock {\em Observational Studies}, 5(2):37--51.
+
+\bibitem[Bach et~al., 2024]{bach2024}
+Bach, P., Chernozhukov, V., Kurz, M.~S., and Spindler, M. (2024).
+\newblock {DoubleML} -- an object-oriented implementation of double machine learning in {R}.
+\newblock {\em Journal of Statistical Software}, 108(3):1--56.
+
+\bibitem[Balbo and Barban, 2014]{balbobarban2014}
+Balbo, N. and Barban, N. (2014).
+\newblock Does fertility behavior spread among friends?
+\newblock {\em American Sociological Review}, 79(3):412--431.
+
+\bibitem[Becker, 1960]{becker1960}
+Becker, G.~S. (1960).
+\newblock An economic analysis of fertility.
+\newblock In {\em Demographic and Economic Change in Developed Countries}, pages 209--231. National Bureau of Economic Research.
+
+\bibitem[Berg{\'e}, 2018]{berge2018}
+Berg{\'e}, L. (2018).
+\newblock Efficient estimation of maximum likelihood models with multiple fixed-effects: The {R} package {FENmlm}.
+\newblock {\em CREA Discussion Papers}, (13).
+
+\bibitem[Berrington, 2017]{berrington2017}
+Berrington, A. (2017).
+\newblock Childlessness in the {UK}.
+\newblock In Kreyenfeld, M. and Konietzka, D., editors, {\em Childlessness in {E}urope: Contexts, Causes, and Consequences}, pages 57--76. Springer.
+
+\bibitem[Bongaarts and Feeney, 1998]{bongaartsfeeney1998}
+Bongaarts, J. and Feeney, G. (1998).
+\newblock On the quantum and tempo of fertility.
+\newblock {\em Population and Development Review}, 24(2):271--291.
+
+\bibitem[Bongaarts and Watkins, 1996]{bongaartswatkins1996}
+Bongaarts, J. and Watkins, S.~C. (1996).
+\newblock Social interactions and contemporary fertility transitions.
+\newblock {\em Population and Development Review}, 22(4):639--682.
+
+\bibitem[Boone, 1986]{boone1986}
+Boone, J.~L. (1986).
+\newblock Parental investment and elite family structure in preindustrial states: A case study of late medieval--early modern {P}ortuguese genealogies.
+\newblock {\em American Anthropologist}, 88(4):859--878.
+
+\bibitem[Boyd and Richerson, 1985]{boydricherson1985}
+Boyd, R. and Richerson, P.~J. (1985).
+\newblock {\em Culture and the Evolutionary Process}.
+\newblock University of Chicago Press.
+
+\bibitem[B{\"u}rkner, 2017]{burkner2017}
+B{\"u}rkner, P.-C. (2017).
+\newblock {brms}: An {R} package for {B}ayesian multilevel models using {S}tan.
+\newblock {\em Journal of Statistical Software}, 80(1):1--28.
+
+\bibitem[Caldwell, 1976]{caldwell1976}
+Caldwell, J.~C. (1976).
+\newblock Toward a restatement of demographic transition theory.
+\newblock {\em Population and Development Review}, 2(3/4):321--366.
+
+\bibitem[Cameron et~al., 2008]{cameron2008}
+Cameron, A.~C., Gelbach, J.~B., and Miller, D.~L. (2008).
+\newblock Bootstrap-based improvements for inference with clustered errors.
+\newblock {\em The Review of Economics and Statistics}, 90(3):414--427.
+
+\bibitem[Chen and Guestrin, 2016]{chenguestrin2016}
+Chen, T. and Guestrin, C. (2016).
+\newblock {XGBoost}: A scalable tree boosting system.
+\newblock In {\em Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}, pages 785--794. Association for Computing Machinery.
+
+\bibitem[Chernozhukov et~al., 2018]{chernozhukov2018}
+Chernozhukov, V., Chetverikov, D., Demirer, M., Duflo, E., Hansen, C., Newey, W., and Robins, J. (2018).
+\newblock Double/debiased machine learning for treatment and structural parameters.
+\newblock {\em The Econometrics Journal}, 21(1):C1--C68.
+
+\bibitem[Cleland, 2001]{cleland2001}
+Cleland, J. (2001).
+\newblock The effects of improved survival on fertility: A reassessment.
+\newblock {\em Population and Development Review}, 27(Supplement):60--92.
+
+\bibitem[Coleman and Salt, 1992]{colemansalt1992}
+Coleman, D. and Salt, J. (1992).
+\newblock {\em The {B}ritish Population: Patterns, Trends, and Processes}.
+\newblock Oxford University Press.
+
+\bibitem[Colleran, 2016]{colleran2016}
+Colleran, H. (2016).
+\newblock The cultural evolution of fertility decline.
+\newblock {\em Philosophical Transactions of the Royal Society B: Biological Sciences}, 371(1692):20150152.
+
+\bibitem[Colleran, 2020]{colleran2020}
+Colleran, H. (2020).
+\newblock Farming, inequality and the origins of the transition: Socioeconomic differentiation in fertility.
+\newblock {\em Royal Society Open Science}, 7(5):192039.
+
+\bibitem[Colleran and Mace, 2015]{colleranmace2015}
+Colleran, H. and Mace, R. (2015).
+\newblock Social network- and community-level influences on contraceptive use: Evidence from rural {P}oland.
+\newblock {\em Proceedings of the Royal Society B: Biological Sciences}, 282(1807):20150398.
+
+\bibitem[Coppedge et~al., 2026]{vdem2026}
+Coppedge, M., Gerring, J., Knutsen, C.~H., Lindberg, S.~I., Teorell, J., et~al. (2026).
+\newblock {V-Dem} dataset (v16) [data set].
+\newblock \url{https://doi.org/10.23696/vdemds26}.
+
+\bibitem[Cygan-Rehm and Maeder, 2013]{cyganrehm2013}
+Cygan-Rehm, K. and Maeder, M. (2013).
+\newblock The effect of education on fertility: Evidence from a compulsory schooling reform.
+\newblock {\em Labour Economics}, 25:35--48.
+
+\bibitem[Dribe et~al., 2014]{dribe2014}
+Dribe, M., Hacker, J.~D., and Scalone, F. (2014).
+\newblock The impact of socioeconomic status on net fertility during the historical fertility decline: A comparative analysis of {C}anada, {I}celand, {S}weden, {N}orway, and the {USA}.
+\newblock {\em Population Studies}, 68(2):135--149.
+
+\bibitem[Elliott and Shepherd, 2006]{bcs70_birth}
+Elliott, J. and Shepherd, P. (2006).
+\newblock 1970 {B}ritish cohort study: Birth sweep, 1970 [data set].
+\newblock \url{https://doi.org/10.5255/UKDA-SN-2666-1}.
+
+\bibitem[{European Social Survey ERIC}, 2024]{ess2024}
+{European Social Survey ERIC} (2024).
+\newblock European social survey, rounds 1--11, integrated file (edition 1.0) [data set].
+\newblock \url{https://www.europeansocialsurvey.org/data-portal}.
+
+\bibitem[{Eurostat}, 2026a]{eurostat_faeduc}
+{Eurostat} (2026a).
+\newblock Live births by mother's age and educational attainment level [data set; demo\_faeduc].
+\newblock European Commission.
+\newblock \url{https://ec.europa.eu/eurostat/data/database}.
+
+\bibitem[{Eurostat}, 2026b]{eurostat_edat}
+{Eurostat} (2026b).
+\newblock Population by educational attainment level, sex and age [data set; edat\_lfse\_03].
+\newblock European Commission.
+\newblock \url{https://ec.europa.eu/eurostat/data/database}.
+
+\bibitem[Farbmacher et~al., 2022]{farbmacher2022}
+Farbmacher, H., Huber, M., Laff\'ers, L., Langen, H., and Spindler, M. (2022).
+\newblock Causal mediation analysis with double machine learning.
+\newblock {\em The Econometrics Journal}, 25(2):277--300.
+
+\bibitem[Fieder and Huber, 2007]{fiederhuber2007}
+Fieder, M. and Huber, S. (2007).
+\newblock The effects of sex and childlessness on the association between status and reproductive output in modern society.
+\newblock {\em Evolution and Human Behavior}, 28(6):392--398.
+
+\bibitem[Goodman et~al., 2012]{goodman2012}
+Goodman, A., Koupil, I., and Lawson, D.~W. (2012).
+\newblock Low fertility increases descendant socioeconomic position but reduces long-term fitness in a modern post-industrial society.
+\newblock {\em Proceedings of the Royal Society B: Biological Sciences}, 279(1746):4342--4351.
+
+\bibitem[Hern{\'a}n et~al., 2004]{hernan2004}
+Hern{\'a}n, M.~A., Hern{\'a}ndez-D{\'i}az, S., and Robins, J.~M. (2004).
+\newblock A structural approach to selection bias.
+\newblock {\em Epidemiology}, 15(5):615--625.
+
+\bibitem[Hopcroft, 2006]{hopcroft2006}
+Hopcroft, R.~L. (2006).
+\newblock Sex, status, and reproductive success in the contemporary {U}nited {S}tates.
+\newblock {\em Evolution and Human Behavior}, 27(2):104--120.
+
+\bibitem[Imai et~al., 2010]{imai2010}
+Imai, K., Keele, L., and Tingley, D. (2010).
+\newblock A general approach to causal mediation analysis.
+\newblock {\em Psychological Methods}, 15(4):309--334.
+
+\bibitem[Jalovaara et~al., 2019]{jalovaara2019}
+Jalovaara, M., Neyer, G., Andersson, G., Dahlberg, J., Dommermuth, L., Fallesen, P., and Lappeg{\aa}rd, T. (2019).
+\newblock Education, gender, and cohort fertility in the nordic countries.
+\newblock {\em European Journal of Population}, 35(3):563--586.
+
+\bibitem[Kanazawa, 2003]{kanazawa2003}
+Kanazawa, S. (2003).
+\newblock Can evolutionary psychology explain reproductive behavior in the contemporary {U}nited {S}tates?
+\newblock {\em Sociological Quarterly}, 44(2):195--218.
+
+\bibitem[Kaplan, 1996]{kaplan1996}
+Kaplan, H. (1996).
+\newblock A theory of fertility and parental investment in traditional and modern human societies.
+\newblock {\em Yearbook of Physical Anthropology}, 39(S23):91--135.
+
+\bibitem[Kaplan and Lancaster, 2003]{kaplanlancaster2003}
+Kaplan, H. and Lancaster, J.~B. (2003).
+\newblock An evolutionary and ecological analysis of human fertility, mating patterns, and parental investment.
+\newblock In Wachter, K.~W. and Bulatao, R.~A., editors, {\em Offspring: Human Fertility Behavior in Biodemographic Perspective}, pages 170--223. National Academies Press.
+
+\bibitem[Koenker, 2005]{koenker2005}
+Koenker, R. (2005).
+\newblock {\em Quantile Regression}.
+\newblock Cambridge University Press.
+
+\bibitem[Kohler and Philipov, 2001]{kohlerphilipov2001}
+Kohler, H.-P. and Philipov, D. (2001).
+\newblock Variance effects in the {B}ongaarts--{F}eeney formula.
+\newblock {\em Demography}, 38(1):1--16.
+
+\bibitem[Lawson and Mace, 2011]{lawsonmace2011}
+Lawson, D.~W. and Mace, R. (2011).
+\newblock Parental investment and the optimization of human family size.
+\newblock {\em Philosophical Transactions of the Royal Society B: Biological Sciences}, 366(1563):333--343.
+
+\bibitem[Lesthaeghe, 2010]{lesthaeghe2010}
+Lesthaeghe, R. (2010).
+\newblock The unfolding story of the second demographic transition.
+\newblock {\em Population and Development Review}, 36(2):211--251.
+
+\bibitem[Lundberg and Lee, 2017]{lundberglee2017}
+Lundberg, S.~M. and Lee, S.-I. (2017).
+\newblock A unified approach to interpreting model predictions.
+\newblock {\em Advances in Neural Information Processing Systems}, 30:4765--4774.
+
+\bibitem[Mason, 1997]{mason1997}
+Mason, K.~O. (1997).
+\newblock Explaining fertility transitions.
+\newblock {\em Demography}, 34(4):443--454.
+
+\bibitem[Mesoudi, 2011]{mesoudi2011}
+Mesoudi, A. (2011).
+\newblock {\em Cultural Evolution: How {D}arwinian Theory Can Explain Human Culture and Synthesize the Social Sciences}.
+\newblock University of Chicago Press.
+
+\bibitem[Monstad et~al., 2008]{monstad2008}
+Monstad, K., Propper, C., and Salvanes, K.~G. (2008).
+\newblock Education and fertility: Evidence from a natural experiment.
+\newblock {\em Scandinavian Journal of Economics}, 110(4):827--852.
+
+\bibitem[Nettle and Pollet, 2008]{nettlepollet2008}
+Nettle, D. and Pollet, T.~V. (2008).
+\newblock Natural selection on male wealth in humans.
+\newblock {\em The American Naturalist}, 172(5):658--666.
+
+\bibitem[Notestein, 1945]{notestein1945}
+Notestein, F.~W. (1945).
+\newblock Population: The long view.
+\newblock In Schultz, T.~W., editor, {\em Food for the World}, pages 36--57. University of Chicago Press.
+
+\bibitem[{OECD}, 2026a]{oecd_gdp}
+{OECD} (2026a).
+\newblock Gross domestic product per capita [data set].
+\newblock OECD Data Explorer.
+\newblock \url{https://data-explorer.oecd.org}.
+
+\bibitem[{OECD}, 2026b]{oecd_lfp}
+{OECD} (2026b).
+\newblock Labour force participation rate [data set].
+\newblock OECD Data Explorer.
+\newblock \url{https://data-explorer.oecd.org}.
+
+\bibitem[P{\'e}russe, 1993]{perusse1993}
+P{\'e}russe, D. (1993).
+\newblock Cultural and reproductive success in industrial societies: Testing the relationship at the proximate and ultimate levels.
+\newblock {\em Behavioral and Brain Sciences}, 16(2):267--283.
+
+\bibitem[Pettay et~al., 2005]{pettay2005}
+Pettay, J.~E., Kruuk, L. E.~B., Jokela, J., and Lummaa, V. (2005).
+\newblock Heritability and genetic constraints of life-history trait evolution in preindustrial humans.
+\newblock {\em Proceedings of the National Academy of Sciences}, 102(8):2838--2843.
+
+\bibitem[Pustejovsky and Tipton, 2018]{pustejovskytipton2018}
+Pustejovsky, J.~E. and Tipton, E. (2018).
+\newblock Small-sample methods for cluster-robust variance estimation and hypothesis testing in fixed effects models.
+\newblock {\em Journal of Business \& Economic Statistics}, 36(4):672--683.
+
+\bibitem[Skirbekk, 2008]{skirbekk2008}
+Skirbekk, V. (2008).
+\newblock Fertility trends by social status.
+\newblock {\em Demographic Research}, 18(5):145--180.
+
+\bibitem[Snopkowski et~al., 2016]{snopkowski2016}
+Snopkowski, K., Towner, M.~C., Shenk, M.~K., and Colleran, H. (2016).
+\newblock Pathways from education to fertility decline: A multi-site comparative study.
+\newblock {\em Philosophical Transactions of the Royal Society B: Biological Sciences}, 371(1692):20150156.
+
+\bibitem[Sobotka et~al., 2011]{sobotka2011}
+Sobotka, T., Skirbekk, V., and Philipov, D. (2011).
+\newblock Economic recession and fertility in the developed world.
+\newblock {\em Population and Development Review}, 37(2):267--306.
+
+\bibitem[Stulp and Barrett, 2016]{stulpbarrett2016}
+Stulp, G. and Barrett, L. (2016).
+\newblock Wealth, fertility and adaptive behaviour in industrial populations.
+\newblock {\em Philosophical Transactions of the Royal Society B: Biological Sciences}, 371(1692):20150153.
+
+\bibitem[{University College London, Centre for Longitudinal Studies}, 2025]{bcs70_age51}
+{University College London, Centre for Longitudinal Studies} (2025).
+\newblock 1970 {B}ritish cohort study: Age 51 survey, 2021--2024 [data set].
+\newblock \url{https://doi.org/10.5255/UKDA-SN-9347-1}.
+
+\bibitem[{University of London, Institute of Education, Centre for Longitudinal Studies}, 2014]{bcs70_age42}
+{University of London, Institute of Education, Centre for Longitudinal Studies} (2014).
+\newblock 1970 {B}ritish cohort study: Forty-two-year follow-up, 2012 [data set].
+\newblock \url{https://doi.org/10.5255/UKDA-SN-7473-1}.
+
+\bibitem[Vehtari et~al., 2017]{vehtari2017}
+Vehtari, A., Gelman, A., and Gabry, J. (2017).
+\newblock Practical {B}ayesian model evaluation using leave-one-out cross-validation and {WAIC}.
+\newblock {\em Statistics and Computing}, 27(5):1413--1432.
+
+\bibitem[Vining, 1986]{vining1986}
+Vining, D.~R. (1986).
+\newblock Social versus reproductive success: The central theoretical problem of human sociobiology.
+\newblock {\em Behavioral and Brain Sciences}, 9(1):167--187.
+
+\bibitem[Voland, 1990]{voland1990}
+Voland, E. (1990).
+\newblock Differential reproductive success within the {K}rummh{\"o}rn population ({G}ermany, 18th and 19th centuries).
+\newblock {\em Behavioral Ecology and Sociobiology}, 26(1):65--72.
+
+\bibitem[Watkins, 1991]{watkins1991}
+Watkins, S.~C. (1991).
+\newblock {\em From Provinces into Nations: Demographic Integration in {W}estern {E}urope, 1870--1960}.
+\newblock Princeton University Press.
+
+\bibitem[{World Bank}, 2026]{worldbank_contra}
+{World Bank} (2026).
+\newblock Contraceptive prevalence, any method (\% of married women ages 15--49) [data set].
+\newblock World Bank Open Data.
+\newblock \url{https://data.worldbank.org/indicator/SP.DYN.CONU.ZS}.
+
+\bibitem[Wright and Ziegler, 2017]{wrightziegler2017}
+Wright, M.~N. and Ziegler, A. (2017).
+\newblock {ranger}: A fast implementation of random forests for high dimensional data in {C++} and {R}.
+\newblock {\em Journal of Statistical Software}, 77(1):1--17.
+
+\end{thebibliography}

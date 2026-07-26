@@ -1,8 +1,6 @@
 # ============================================================================
 # 03_h1_models.R
 # H1 FORMAL MODELLING — Education-fertility gradient (period eTFR)
-# MSc Applied Social Data Science, TCD
-#
 # Hypothesis: For European countries 2007–2024, the relationship between
 # education and period eTFR is negative. Given descriptive evidence of a
 # U-shape (medium is lowest), we test whether H1 holds for the low–high
@@ -178,6 +176,7 @@ pop_weights <- asfr_data |>
 etfr_weighted <- etfr_data |>
   mutate(log_etfr = log(etfr)) |>
   left_join(pop_weights, by = c("country", "year", "education"))
+etfr_weighted$education <- relevel(factor(etfr_weighted$education), ref = "medium")
 
 m1_weighted <- feols(
   log_etfr ~ education | country + year,
@@ -221,7 +220,14 @@ p_gradient <- ggplot(plot_data,
                          group = country, colour = shape)) +
   geom_line(linewidth = 0.7) +
   geom_point(size = 1.8) +
-  facet_wrap(~ shape, ncol = 2) +
+  facet_wrap(~ shape, ncol = 2,
+    labeller = as_labeller(c(
+      "monotonic_negative"  = "Monotonic negative",
+      "j_curve_composition" = "U-shape (composition)",
+      "j_curve_broad"       = "U-shape (broad)",
+      "inverted_bottom"     = "Inverted bottom"
+    ))) +
+
   scale_colour_manual(
     values = c(
       "monotonic_negative"  = "#2166ac",
@@ -233,7 +239,7 @@ p_gradient <- ggplot(plot_data,
   ) +
   labs(
     title    = "Education–fertility gradient by country and gradient type",
-    subtitle = "Mean period eTFR 2007–2024; each line = one country",
+    subtitle = "Mean eTFR over each country's coverage window; each line = one country",
     x        = "Education level",
     y        = "Period eTFR",
     caption  = "Source: Eurostat demo_faeduc / edat_lfse_03"
@@ -306,45 +312,7 @@ saveRDS(
 
 cat("Model objects saved to data/models/h1_models.rds\n")
 
-# ── 8. Methodology log — new entries ─────────────────────────────────────────
-cat("
-====================================================================
-METHODOLOGY LOG — NEW ENTRIES FROM H1 MODELLING
-====================================================================
 
-26. H1 outcome: log(eTFR). Log transformation applied because eTFR is
-    bounded below at zero, right-skewed across education groups, and
-    because the multiplicative structure of fertility-education
-    relationships is better captured on the log scale. Coefficients
-    are interpreted as percentage differences in fertility by education.
-
-27. Reference category: 'medium' education. Chosen over 'low' because
-    (a) 'low' is the compositionally noisy category in 8 countries
-    (Type A U-shape countries with Roma/ethnic minority populations),
-    and (b) medium-as-reference produces two contrasts (low-vs-med,
-    high-vs-med) that directly quantify the U-shape. The H1 strict
-    test (high vs low) is derived via Wald test.
-
-28. Baseline specification: feols(log_etfr ~ education | country +
-    year, cluster = 'country'). Two-way fixed effects absorb country-
-    level time-invariant confounders and common year shocks.
-    Standard errors clustered at country level (N=21 clusters).
-    Wild bootstrap SEs reported as robustness given small N clusters.
-
-29. Robustness checks: (a) balanced subsample (full 2007-2024 coverage,
-    N=X countries); (b) excluding 2020-2021 pandemic years; (c)
-    (c) excluding composition-driven Type A countries (Croatia, Czechia,
-Estonia, Finland, Latvia, Poland, Slovakia, Slovenia); (d) reference category
-    sensitivity (low as reference); (e) population-weighted;
-    (f) wild bootstrap SEs. Results [broadly stable / vary as follows].
-====================================================================
-")
-
-cat("\nDone. Run the script and paste the M1 coefficient output back.\n")
-cat("Key quantities to note:\n")
-cat("  1. coef(m1)['educationlow']  — expected positive\n")
-cat("  2. coef(m1)['educationhigh'] — expected positive (U-shape confirmation)\n")
-cat("  3. Wald test high vs low     — sign determines H1 verdict\n")
 
 
 

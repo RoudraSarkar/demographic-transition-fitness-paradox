@@ -1,0 +1,24 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Education--fertility gradient by country and gradient type. Mean period eTFR over each country's coverage window within 2007--2024; each line is one country, grouped into the four shape categories. Source: Eurostat \texttt {demo\_faeduc}/\texttt {edat\_lfse\_03}.}}{16}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Education--fertility gradient by country, mean eTFR over each country's coverage window within 2007--2024. Each panel shows one country's profile across the three tiers; the U-shape (medium lowest) is visible in the majority. Source: Eurostat \texttt {demo\_faeduc}.}}{17}{figure.caption.12}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Pooled education--fertility gradient coefficients (M1), with 95\% confidence intervals from country-clustered standard errors. Reference: medium education.}}{19}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Predicted log eTFR from the quadratic specification, relative to the country--year fixed-effects baseline. The curve attains its minimum at educ $\approx 1.24$. $\beta _1=-0.484$, $\beta _2=+0.195$.}}{22}{figure.caption.19}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Education contrasts across the conditional distribution of log eTFR, from quantile regressions at five quantiles (reference: high). Ribbons are 95\% confidence intervals from a country-clustered bootstrap ($R=1{,}000$). The low--high gap rises across $\tau $; the medium--high gap narrows and its interval covers zero at $\tau =0.90$.}}{23}{figure.caption.21}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces H3 Stage 1, mean absolute SHAP values across the twelve predictors, coloured by theoretical category. Seven of twelve are non-zero; five are absorbed by regularisation.}}{27}{figure.caption.24}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces H3 Stage 1, SHAP value distribution by country. Each dot is one country; positive values push predicted gradient steepness upward.}}{28}{figure.caption.25}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces H3 Stage 2, posterior distributions for the institutional (M1), attitudinal (M5), and economic (M2) models. Points and intervals are posterior medians and 95\% credible intervals; all intervals cross zero.}}{29}{figure.caption.28}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Unadjusted education--fertility gradient in BCS70 by sex. Mean completed fertility at age 42 by highest NVQ qualification at age 30; error bars are 95\% confidence intervals.}}{31}{figure.caption.30}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces H4, DML estimates of the total causal effect of education on completed fertility, with 95\% confidence intervals. Estimation samples ($N=1{,}461$ women, $1{,}081$ men) reflect complete cases on all pre-treatment confounders. The women's estimate is significant; the men's is not distinguishable from zero.}}{32}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces H4, mediation decomposition for women and men. Bars show the indirect effect through each pathway and the controlled direct effect; percentages are the pathway share of the total effect.}}{33}{figure.caption.35}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Correlation matrix of the twelve country-level predictors used in the H3 analysis.}}{42}{figure.caption.39}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces SHAP dependence for the leading H3 predictors, showing how each feature's contribution varies with its value.}}{43}{figure.caption.40}%
+\addvspace {10\p@ }

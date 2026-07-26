@@ -1,8 +1,6 @@
 # ============================================================================
 # 05_dataset2_outcomes.R
 # DATASET 2 (H3) — PART 1: Derive outcome variables from Dataset 1
-# MSc Applied Social Data Science, TCD
-#
 # Creates country-level gradient characteristics (outcomes for H3 models)
 # from the education-fertility panel (Dataset 1).
 #
@@ -95,28 +93,4 @@ saveRDS(outcomes, "data/derived/dataset2_outcomes.rds")
 cat("\nSaved to data/derived/dataset2_outcomes.rds\n")
 cat("Rows:", nrow(outcomes), "| Columns:", ncol(outcomes), "\n")
 
-# ── 7. Methodology log ────────────────────────────────────────────────────────
 
-cat("
-====================================================================
-METHODOLOGY LOG — NEW ENTRY FROM DATASET 2 BUILD
-====================================================================
-
-34. Dataset 2 construction (Part 1: Outcomes). Country-level outcome
-    variables for H3 derived from Dataset 1 (period eTFR panel 2007–2024).
-    N = 21 countries. Outcomes:
-    - gradient_steepness: eTFR_low - eTFR_high (mean across panel)
-    - u_shape: binary indicator (1 if medium is lowest tier)
-    - shape: categorical classification (monotonic_negative, 
-      j_curve_broad, j_curve_composition, inverted_bottom)
-    - share_low/medium/high: % of female pop aged 25–39 in each 
-      education tier (from Dataset 1)
-    All means computed as simple averages across the 2007–2024 panel
-    (unweighted by year, assumes temporal stability — verified in H1).
-    
-====================================================================
-")
-
-cat("\nDone. Next: collect country-level predictors (cultural, economic).\n")
-
-list.files("data/raw", recursive = TRUE)

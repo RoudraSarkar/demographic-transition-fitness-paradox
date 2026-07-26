@@ -124,7 +124,7 @@ still_missing <- c("Bulgaria", "Switzerland", "Cyprus", "Germany", "France",
                    "Ireland", "Iceland", "Italy", "Lithuania", "Luxembourg", 
                    "Malta", "Netherlands")
 
-# Check ALL ISCED categories (not just the three we filtered for) 
+# Check ALL ISCED categories (not just the three filtered for) 
 # to see what these countries actually have
 for (country in still_missing) {
   cat("\n===", country, "===\n")

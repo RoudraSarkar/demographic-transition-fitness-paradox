@@ -1,0 +1,58 @@
+\contentsline {chapter}{Declaration}{i}{chapter*.1}%
+\contentsline {chapter}{Abstract}{ii}{chapter*.2}%
+\contentsline {chapter}{Acknowledgements}{iii}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background and motivation}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Research problem and question}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Hypotheses}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Contribution}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Findings in brief}{3}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Literature Review}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The paradox and the demographic transition}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Theoretical explanations}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Cultural transmission}{4}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Quantity--quality tradeoff and embodied capital}{5}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Maladaptation and evolutionary lag}{5}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}The J-curve and recent developments}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Individual-level mechanism studies}{6}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Gaps and contribution}{7}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Data and Methodology}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Research design}{8}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Dataset 1: education-stratified period fertility}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Dataset 2: country-level outcomes and predictors}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Dataset 3: BCS70 individual-level data}{11}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Methods for H1 and H2: panel, quadratic, and quantile regression}{11}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Methods for H3: two-stage discovery--inference pipeline}{12}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Methods for H4: double machine learning causal mediation}{12}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Software, reproducibility, and ethics}{13}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Descriptive Results}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Education-stratified fertility trends, 2007--2024}{14}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Cross-country variation in the gradient}{14}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Attainment distributions and low-tier fertility}{15}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Gradient-shape classification and the predominance of the U-shape}{15}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Preliminary evidence and summary}{17}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Main Results: H1 and H2}{18}{chapter.5}%
+\contentsline {section}{\numberline {5.1}H1: the pooled education--fertility gradient}{18}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Cross-country heterogeneity}{18}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Robustness checks on H1}{20}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Small-cluster inference: CR2 with Satterthwaite degrees of freedom}{20}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}H2: quadratic specification}{21}{section.5.4}%
+\contentsline {section}{\numberline {5.5}H2: quantile regression across the distribution}{21}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Summary}{23}{section.5.6}%
+\contentsline {section}{\numberline {5.7}The age range of the eTFR: timing versus quantum}{24}{section.5.7}%
+\contentsline {chapter}{\numberline {6}Mechanism Results: H3 and H4}{26}{chapter.6}%
+\contentsline {section}{\numberline {6.1}H3 Stage 1: XGBoost discovery and SHAP decomposition}{26}{section.6.1}%
+\contentsline {section}{\numberline {6.2}H3 Stage 2: Bayesian model comparison}{27}{section.6.2}%
+\contentsline {section}{\numberline {6.3}H3 synthesis}{28}{section.6.3}%
+\contentsline {section}{\numberline {6.4}H4: total causal effect of education on completed fertility}{30}{section.6.4}%
+\contentsline {section}{\numberline {6.5}H4: sequential mediation and pathway decomposition}{31}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Synthesis}{34}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Discussion}{35}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Theoretical implications}{35}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Comparison with prior literature}{36}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Strengths and limitations}{36}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Future research}{38}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Conclusion}{39}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Full 21-Country Gradient Steepness Table}{40}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Full Robustness Checks}{41}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Code and Reproduction Information}{44}{appendix.C}%

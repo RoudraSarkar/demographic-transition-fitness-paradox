@@ -1,7 +1,6 @@
 # =============================================================================
 # 08_h4data_bcs70.R
 # H4: BCS70 Data Processing - Education and Fertility
-# FRESH START - Simple, robust, diagnostic-heavy approach
 # =============================================================================
 
 cat("\n=== H4 BCS70 Data Processing ===\n")
@@ -580,27 +579,6 @@ cat(sprintf("Saved: %s\n", file.path(OUT_DATA, "h4_analytical_data.csv")))
 
 cat("\n")
 
-# =============================================================================
-# 10. SUMMARY
-# =============================================================================
 
-cat("=== PROCESSING COMPLETE ===\n\n")
 
-cat("Summary:\n")
-cat(sprintf("  Total cases merged:     %d\n", nrow(df)))
-cat(sprintf("  Analytical sample:      %d\n", nrow(df_analysis)))
-cat(sprintf("    Women:                %d\n", nrow(df_women)))
-cat(sprintf("    Men:                  %d\n", nrow(df_men)))
-cat("\n")
-cat("Next steps:\n")
-cat("  1. Run DML total effect models (separate script)\n")
-cat("  2. Add mediation decomposition\n")
-cat("  3. Robustness checks\n\n")
-
-cat("Session info:\n")
-print(sessionInfo())
-
-# =============================================================================
-# END
-# =============================================================================
 

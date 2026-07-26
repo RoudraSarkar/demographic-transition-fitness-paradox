@@ -41,7 +41,7 @@ for (f in r_files) {
   }
 }
 
-# 3. Create _targets.R skeleton (only if it doesn't exist)
+# 3. Create _targets.R skeleton 
 if (!file.exists("_targets.R")) {
   writeLines(c(
     "library(targets)",

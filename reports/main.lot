@@ -1,0 +1,32 @@
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces The four hypotheses: prediction, test, principal result, and verdict.}}{3}{table.caption.7}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Data sources.}}{8}{table.caption.8}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Descriptive statistics for the education-specific total fertility rate (eTFR) by tier, pooled across 21 countries and 2007--2024 ($N=933$; 311 country--year observations per tier).}}{14}{table.caption.9}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Gradient-shape classification for 21 European countries.}}{16}{table.caption.10}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces M1, two-way fixed-effects regression of log eTFR on education category. Reference: medium. Country-clustered standard errors. $N=933$; within $R^2=0.294$.}}{18}{table.caption.13}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Selected country $\times $ education interactions from M2 (reference country: Sweden; education reference: high, absorbed by country fixed effects; within $R^2=0.593$).}}{19}{table.caption.15}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces H1 robustness, M1 coefficients across four sensitivity specifications (two-way fixed effects, country-clustered SEs, reference: medium).}}{20}{table.caption.16}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces H1 robustness under CR2 with Satterthwaite degrees of freedom (reference: medium). The population-weighted specification is omitted; weighted least squares requires separate treatment in \texttt {clubSandwich}.}}{21}{table.caption.17}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces H2, linear vs quadratic education specifications. Two-way fixed effects, country-clustered SEs, $N=933$.}}{22}{table.caption.18}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces H2, quantile regression coefficients for education contrasts (reference: high) at five quantiles of log eTFR, with country-clustered bootstrap standard errors in parentheses ($R=1{,}000$). $N=933$.}}{23}{table.caption.20}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces H1 and H2 across three age ranges of the eTFR. Two-way fixed effects, country-clustered SEs, $N=933$ throughout (the restriction changes the age groups summed, not the country--year--education cells).}}{24}{table.caption.22}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces H3 Stage 1, SHAP feature importance (mean $|\mathrm {SHAP}|$, in-sample fit; LOOCV $R^2=-0.086$).}}{27}{table.caption.23}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces H3 Stage 2, Bayesian model comparison by WAIC ($N=18$). The economic model is WAIC-best; LOO gives an identical ordering.}}{28}{table.caption.26}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces H3 Stage 2, posterior summaries for selected parameters (standardised predictors; common $N=18$).}}{29}{table.caption.27}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces H4, total causal effect of education on completed fertility (DML partially linear regression); $\theta $ is the effect of one additional NVQ level.}}{30}{table.caption.29}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces H4, sequential mediation decomposition by sex; declining $N$ reflects complete-case attrition.}}{31}{table.caption.32}%
+\contentsline {table}{\numberline {6.6}{\ignorespaces H4 robustness, mediator sequence re-estimated on the common sample of women complete on all mediators ($N=812$ at every stage), compared with the sequential estimates of Table~\ref {tab:seq}.}}{33}{table.caption.33}%
+\contentsline {table}{\numberline {6.7}{\ignorespaces H4, pathway decomposition by sex. Indirect effects by subtraction; the direct effect is the residual. Shares can exceed 100\% when pathways oppose.}}{33}{table.caption.34}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Mean eTFR by tier, gradient steepness, low-tier share, and shape classification, 21 European countries, each over its coverage window within 2007--2024.}}{40}{table.caption.36}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Educational composition of women by age group. Mean percentage in each tier across all country--years, 21 countries, 2007--2024.}}{41}{table.caption.37}%
+\contentsline {table}{\numberline {B.2}{\ignorespaces Contribution to eTFR by age group and education tier, as a percentage of that tier's total. Computed as $5\times $ mean ASFR in each cell, pooled across 21 countries and 2007--2024.}}{42}{table.caption.38}%
+\addvspace {10\p@ }

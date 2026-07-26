@@ -105,7 +105,7 @@ prepare_dml_data <- function(df, y_var, d_var, x_vars,
 # ── 4. DML FITTING FUNCTION ───────────────────────────────────────────────────
 
 fit_dml <- function(df_cc, y_var, d_var, x_vars,
-                    n_folds = 5, n_rep = 3, label = "") {
+                    n_folds = 5, n_rep = 3, label = "", seed = 20250525) {set.seed(seed)
   # Convert to data.table (DoubleML requirement)
   df_cc <- data.table::as.data.table(df_cc)
   

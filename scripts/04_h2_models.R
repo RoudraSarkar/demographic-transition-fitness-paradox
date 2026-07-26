@@ -1,7 +1,6 @@
 # ============================================================================
 # 04_h2_models.R
 # H2 FORMAL TESTING — Non-monotonicity (U-shape) of education-fertility gradient
-# MSc Applied Social Data Science, TCD
 #
 # Hypothesis: The education-fertility relationship is non-monotonic (U-shaped),
 # with medium-education women having the lowest fertility. This tests the 
@@ -17,7 +16,7 @@ install.packages("SparseM")
 library(dplyr)
 library(tidyr)
 library(fixest)
-library(quantreg)  # install.packages("quantreg") if needed
+library(quantreg)  
 library(ggplot2)
 library(patchwork)
 library(SparseM)
@@ -109,21 +108,19 @@ cat("Linear BIC: ", BIC(m_linear), "\n")
 cat("Quad   BIC: ", BIC(m_quad), "\n")
 
 # Likelihood ratio test (if models are nested)
-# Note: fixest doesn't provide LRT directly; use AIC/BIC or wald test
 cat("\n=== Wald test: quadratic term = 0 ===\n")
 wald_quad <- wald(m_quad, "educ_num_sq")
 print(wald_quad)
 
 # ── 5. Quantile regression ───────────────────────────────────────────────────
 # Test whether the U-shape varies across the fertility distribution
-# (e.g., is the U-shape steeper in high-fertility vs low-fertility contexts?)
 
 cat("\n\n=== Quantile regression (education as 3-level factor) ===\n")
 
 # Quantiles to estimate
 quantiles <- c(0.1, 0.25, 0.5, 0.75, 0.9)
 
-# Note: quantreg doesn't support two-way FE with |, so we include country and year
+# Note: quantreg doesn't support two-way FE with |, so I include country and year
 # as fixed factors directly. This will be slower and less clean than fixest.
 # Also: no clustering support in rq(), so SEs are less reliable.
 
@@ -136,7 +133,7 @@ q_models <- lapply(quantiles, function(tau) {
 
 names(q_models) <- paste0("q_", quantiles)
 
-# Extract coefficients for low and high (relative to medium, which we'll set as reference)
+# Extract coefficients for low and high (relative to medium, which I'll set as reference)
 # rq() uses alphabetical ordering, so we need to check the factor levels
 cat("\n=== Quantile regression coefficients (education contrasts) ===\n")
 
@@ -265,37 +262,4 @@ etable(
   fitstat = c("n", "r2", "wr2", "aic", "bic")
 )
 
-# ── 9. Methodology log — new entries ─────────────────────────────────────────
 
-cat("
-====================================================================
-METHODOLOGY LOG — NEW ENTRIES FROM H2 MODELLING
-====================================================================
-
-31. H2 specification: Quadratic fixed-effects model to test for U-shape.
-    Education recoded as ordinal numeric (low = 0, medium = 1, high = 2).
-    Model: feols(log_etfr ~ educ_num + educ_num_sq | country + year).
-    N = 933 observations (21 countries × 2007–2024).
-
-32. H2 result: [TO BE FILLED AFTER RUNNING]
-    Linear term (β₁): [paste value]
-    Quadratic term (β₂): [paste value, p-value]
-    U-shape confirmed: [YES/NO — if β₂ > 0 and p < 0.05]
-    Minimum at educ_num ≈ [paste -β₁/(2β₂)]
-    AIC comparison: Linear [value] vs Quadratic [value]
-    
-33. Quantile regression: [TO BE FILLED]
-    Estimated at τ = 0.1, 0.25, 0.5, 0.75, 0.9 to test whether
-    the U-shape varies across the fertility distribution.
-    [Describe pattern if clear — e.g., 'U-shape steeper at 
-    lower quantiles' or 'gradient stable across quantiles']
-    Note: SEs unreliable due to lack of clustering support in rq().
-    
-====================================================================
-")
-
-cat("\nDone. Run the script and paste back:\n")
-cat("  1. The m_quad summary output\n")
-cat("  2. The Wald test result for educ_num_sq\n")
-cat("  3. The AIC/BIC comparison table\n")
-cat("  4. The predicted values table\n")
