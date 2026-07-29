@@ -33,6 +33,7 @@
 \setcitestyle{aysep={}}
 
 \usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
 
 \title{Between Culture and Cost}
 \author{Roudra Sarkar}
@@ -289,7 +290,7 @@ about where the gradient should appear and steepen.
 \subsection{Cultural transmission}
 The cultural-transmission framework argues that the transition propagates not through individual
 responses to changed economic conditions but through the social learning of low-fertility norms,
-typically from higher- to lower-status individuals \citep{bongaartswatkins1996,cleland2001}.
+typically from higher- to lower-status individuals \citep{bongaartswatkins1996}.
 \citet{bongaartswatkins1996} showed that the timing of fertility decline across 69 countries was
 poorly predicted by economic indicators alone but well predicted by indicators of social
 interaction. Cultural-evolutionary theory formalises this, modelling fertility norms as
@@ -613,7 +614,10 @@ additional confounders rather than strictly downstream mediators. Models are est
 sex, with a pooled estimate reported as a consistency check.
 
 \section{Software, reproducibility, and ethics}
-All analyses use R~4.5.1, organised as a numbered-script pipeline supporting reproducibility.
+All analyses use R~4.5.1, organised as a numbered-script pipeline supporting reproducibility; the
+complete code is publicly available at
+\url{https://github.com/RoudraSarkar/demographic-transition-fitness-paradox} and documented in
+Appendix~C.
 Datasets are open-access or held under standard academic licence; no new data are collected and no
 identifiable individuals are reported. Ethical approval was obtained through Trinity College
 Dublin's standard process for secondary data analysis. Robustness checks are organised by hypothesis
@@ -669,9 +673,12 @@ ranges from $+1.322$ in Slovakia to $-0.462$ in Denmark. Slovakia and Latvia rep
 extreme conventional negative gradients; in Slovakia low-educated women have roughly twice the
 fertility of high-educated women, and in Latvia around one and a half times. Three countries record negative steepness, high-educated women
 above low-educated: Denmark ($-0.462$) decisively, and Norway ($-0.08$) and Poland ($-0.13$)
-marginally. A clear regional pattern is visible: Eastern European countries tend to
-have steeper positive gradients, Nordic countries flatter or inverted ones, and Mediterranean
-countries a moderate middle, consistent with prior descriptive work \citep{skirbekk2008,andersson2009}
+marginally. A broad regional tendency is visible, though with substantial exceptions in both
+directions. Eastern European countries are more often at the steep end and Nordic countries at the
+flat end, but Finland and Sweden fall in the upper half of the steepness distribution while Poland,
+Romania, Serbia and Croatia sit at the flat end, and the Mediterranean cases divide, with Spain,
+Greece and T\"urkiye among the six steepest and Portugal near the flat end. The direction of the
+tendency is consistent with prior descriptive work \citep{skirbekk2008,andersson2009}
 and explored formally in Chapter~6.
 
 \section{Attainment distributions and low-tier fertility}
@@ -1733,6 +1740,10 @@ scripts, executed sequentially:
 (quantile regression), \texttt{xgboost} (gradient boosting), \texttt{brms} (Bayesian regression),
 \texttt{DoubleML} (double machine learning), \texttt{ranger} (random forests), \texttt{haven}
 (Stata file reading).
+
+\noindent\textbf{Code availability.} The complete analysis pipeline, including all scripts listed
+above, is publicly available at
+\url{https://github.com/RoudraSarkar/demographic-transition-fitness-paradox}.
 
 \noindent\textbf{Data access.} Eurostat, V-Dem, OECD, and World Bank data are freely downloadable.
 The ESS integrated file requires free registration at

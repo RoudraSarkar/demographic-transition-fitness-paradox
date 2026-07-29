@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {2.2.1}Cultural transmission}{4}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Quantity--quality tradeoff and embodied capital}{5}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Maladaptation and evolutionary lag}{5}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}The J-curve and recent developments}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.3}The J-curve and recent developments}{5}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Individual-level mechanism studies}{6}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Gaps and contribution}{7}{section.2.5}%
 \contentsline {chapter}{\numberline {3}Data and Methodology}{8}{chapter.3}%
@@ -30,7 +30,7 @@
 \contentsline {section}{\numberline {4.2}Cross-country variation in the gradient}{14}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Attainment distributions and low-tier fertility}{15}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Gradient-shape classification and the predominance of the U-shape}{15}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Preliminary evidence and summary}{17}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Preliminary evidence and summary}{16}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Main Results: H1 and H2}{18}{chapter.5}%
 \contentsline {section}{\numberline {5.1}H1: the pooled education--fertility gradient}{18}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Cross-country heterogeneity}{18}{section.5.2}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  25 JUL 2026 16:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  30 JUL 2026 02:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -400,10 +400,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip60
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 41
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 42
 .
- (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1ptm.fd
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -414,24 +417,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -492,7 +495,7 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 42.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -505,41 +508,41 @@ Package hyperref Info: Link coloring OFF on input line 41.
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 80.
+ 81.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 80.
+ 81.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 80.
+ 81.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 80.
+ 81.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 8
-0.
+1.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
 
 
 [1
@@ -610,13 +613,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.187 \textit{H1 (Inversion).}
+l.188 \textit{H1 (Inversion).}
                                Across European populations observed between ...
 [1
 
 
 ]
-Overfull \hbox (23.67155pt too wide) in paragraph at lines 215--225
+Overfull \hbox (23.67155pt too wide) in paragraph at lines 216--226
 \T1/ptm/m/n/12 exploratory-then-confirmatory pipeline that sep-a-rates dis-cov-
 ery from in-fer-ence. Third, an individual-
  []
@@ -625,97 +628,97 @@ ery from in-fer-ence. Third, an individual-
 
 [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 246.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 247.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 246.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 247.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 246.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 247.
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 []|\T1/ptm/m/n/10.95 Supported,
  []
 
 
-Underfull \hbox (badness 5175) in paragraph at lines 250--251
+Underfull \hbox (badness 5175) in paragraph at lines 251--252
 \T1/ptm/m/n/10.95 but a tempo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--251
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 []|\T1/ptm/m/n/10.95 Relationship non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--251
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 []|$\OML/ztmcm/m/it/10.95 ^^L[] \OT1/ztmcm/m/n/10.95 = +0\OML/ztmcm/m/it/10.95 
 :\OT1/ztmcm/m/n/10.95 195$
  []
 
 
-Underfull \hbox (badness 4886) in paragraph at lines 251--251
+Underfull \hbox (badness 4886) in paragraph at lines 252--252
 \T1/ptm/m/n/10.95 ($\OML/ztmcm/m/it/10.95 p < \OT1/ztmcm/m/n/10.95 0\OML/ztmcm/
 m/it/10.95 :\OT1/ztmcm/m/n/10.95 001$\T1/ptm/m/n/10.95 ); medium
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 []|\T1/ptm/m/n/10.95 Cultural in-di-ca-tors
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 \T1/ptm/m/n/10.95 pre-dict cross-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 \T1/ptm/m/n/10.95 country vari-a-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 []|\T1/ptm/m/n/10.95 XGBoost--SHAP
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 252--252
+Underfull \hbox (badness 1122) in paragraph at lines 253--253
 []|\T1/ptm/m/n/10.95 LOOCV $\OML/ztmcm/m/it/10.95 R[] \OT1/ztmcm/m/n/10.95 = \O
 MS/ztmcm/m/n/10.95 ^^@\OT1/ztmcm/m/n/10.95 0\OML/ztmcm/m/it/10.95 :\OT1/ztmcm/m
 /n/10.95 086$\T1/ptm/m/n/10.95 ;
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 252--252
+Underfull \hbox (badness 1102) in paragraph at lines 253--253
 \T1/ptm/m/n/10.95 SHAP favours cul-tural,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 \T1/ptm/m/n/10.95 WAIC favours eco-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 []|\T1/ptm/m/n/10.95 Unsupported
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 253--253
+Underfull \hbox (badness 3503) in paragraph at lines 254--254
 \T1/ptm/m/n/10.95 di-ated by at-ti-tudes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []|\T1/ptm/m/n/10.95 Earnings 44--61% of
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 253--253
+Underfull \hbox (badness 2626) in paragraph at lines 254--254
 \T1/ptm/m/n/10.95 to-tal ef-fect; at-ti-tu-di-nal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 \T1/ptm/m/n/10.95 share neg-li-gi-ble and
  []
 
@@ -724,13 +727,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--253
 [3]
 Chapter 2.
 
-Overfull \hbox (1.9516pt too wide) in paragraph at lines 264--271
+Overfull \hbox (1.9516pt too wide) in paragraph at lines 265--272
 \T1/ptm/m/n/12 The de-mo-graphic tran-si-tion fit-ness para-dox is the ob-ser-v
 a-tion that, in con-tem-po-rary high-income
  []
 
 
-Overfull \hbox (25.39914pt too wide) in paragraph at lines 272--284
+Overfull \hbox (25.39914pt too wide) in paragraph at lines 273--285
 \T1/ptm/m/n/12 ([]Notestein[] []1945[]; []Cald-well[] []1976[]). Across pre-tra
 nsition agrar-ian pop-u-la-tions the wealth--reproduction
  []
@@ -740,7 +743,7 @@ nsition agrar-ian pop-u-la-tions the wealth--reproduction
 [4
 
 ]
-Overfull \hbox (7.87894pt too wide) in paragraph at lines 333--357
+Overfull \hbox (7.87894pt too wide) in paragraph at lines 334--358
 \T1/ptm/m/n/12 ([]2006[]), analysing biological-children counts for a US prob-a
 -bil-ity sam-ple, finds a pos-i-tive income--
  []
@@ -754,9 +757,9 @@ Overfull \hbox (7.87894pt too wide) in paragraph at lines 333--357
 [7]
 Chapter 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 427.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 428.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 427.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 428.
 
 
 [8
@@ -783,23 +786,23 @@ Chapter 4.
 <h1_gradient_by_type.png, id=807, 722.7pt x 505.89pt>
 File: h1_gradient_by_type.png Graphic file (type png)
 <use h1_gradient_by_type.png>
-Package pdftex.def Info: h1_gradient_by_type.png  used on input line 746.
+Package pdftex.def Info: h1_gradient_by_type.png  used on input line 753.
 (pdftex.def)             Requested size: 364.19667pt x 254.93593pt.
 <gradient_by_country.png, id=808, 867.24pt x 578.16pt>
 File: gradient_by_country.png Graphic file (type png)
 <use gradient_by_country.png>
-Package pdftex.def Info: gradient_by_country.png  used on input line 753.
+Package pdftex.def Info: gradient_by_country.png  used on input line 760.
 (pdftex.def)             Requested size: 364.19667pt x 242.79907pt.
 
 
-[16 <./h1_gradient_by_type.png>]
+[16]
 
-[17 <./gradient_by_country.png>]
+[17 <./h1_gradient_by_type.png> <./gradient_by_country.png>]
 Chapter 5.
 <h1_pooled_fe_coefs.png, id=819, 433.62pt x 361.35pt>
 File: h1_pooled_fe_coefs.png Graphic file (type png)
 <use h1_pooled_fe_coefs.png>
-Package pdftex.def Info: h1_pooled_fe_coefs.png  used on input line 802.
+Package pdftex.def Info: h1_pooled_fe_coefs.png  used on input line 809.
 (pdftex.def)             Requested size: 364.19667pt x 303.50987pt.
 
 
@@ -810,14 +813,14 @@ Package pdftex.def Info: h1_pooled_fe_coefs.png  used on input line 802.
 [19 <./h1_pooled_fe_coefs.png>]
 
 [20]
-Overfull \hbox (9.29001pt too wide) in paragraph at lines 895--905
+Overfull \hbox (9.29001pt too wide) in paragraph at lines 902--912
  [][] 
  []
 
 <h2_quadratic_curve.png, id=839, 505.89pt x 361.35pt>
 File: h2_quadratic_curve.png Graphic file (type png)
 <use h2_quadratic_curve.png>
-Package pdftex.def Info: h2_quadratic_curve.png  used on input line 946.
+Package pdftex.def Info: h2_quadratic_curve.png  used on input line 953.
 (pdftex.def)             Requested size: 364.19667pt x 260.14423pt.
 
 
@@ -827,7 +830,7 @@ Package pdftex.def Info: h2_quadratic_curve.png  used on input line 946.
 <h2_quantile_boot.png, id=850, 578.16pt x 361.35pt>
 File: h2_quantile_boot.png Graphic file (type png)
 <use h2_quantile_boot.png>
-Package pdftex.def Info: h2_quantile_boot.png  used on input line 994.
+Package pdftex.def Info: h2_quantile_boot.png  used on input line 1001.
 (pdftex.def)             Requested size: 364.19667pt x 227.61862pt.
 
 
@@ -840,12 +843,12 @@ Chapter 6.
 <h3_shap_importance.png, id=875, 1003.75pt x 702.625pt>
 File: h3_shap_importance.png Graphic file (type png)
 <use h3_shap_importance.png>
-Package pdftex.def Info: h3_shap_importance.png  used on input line 1124.
+Package pdftex.def Info: h3_shap_importance.png  used on input line 1131.
 (pdftex.def)             Requested size: 364.19667pt x 254.93893pt.
 <h3_shap_beeswarm.png, id=877, 1003.75pt x 702.625pt>
 File: h3_shap_beeswarm.png Graphic file (type png)
 <use h3_shap_beeswarm.png>
-Package pdftex.def Info: h3_shap_beeswarm.png  used on input line 1131.
+Package pdftex.def Info: h3_shap_beeswarm.png  used on input line 1138.
 (pdftex.def)             Requested size: 364.19667pt x 254.93893pt.
 
 
@@ -857,7 +860,7 @@ Package pdftex.def Info: h3_shap_beeswarm.png  used on input line 1131.
 <h3_bayesian_posteriors.png, id=890, 1104.125pt x 803.0pt>
 File: h3_bayesian_posteriors.png Graphic file (type png)
 <use h3_bayesian_posteriors.png>
-Package pdftex.def Info: h3_bayesian_posteriors.png  used on input line 1195.
+Package pdftex.def Info: h3_bayesian_posteriors.png  used on input line 1202.
 (pdftex.def)             Requested size: 364.19667pt x 264.86829pt.
 
 
@@ -867,12 +870,12 @@ Package pdftex.def Info: h3_bayesian_posteriors.png  used on input line 1195.
 <h4_raw_gradient.png, id=906, 722.7pt x 433.62pt>
 File: h4_raw_gradient.png Graphic file (type png)
 <use h4_raw_gradient.png>
-Package pdftex.def Info: h4_raw_gradient.png  used on input line 1261.
+Package pdftex.def Info: h4_raw_gradient.png  used on input line 1268.
 (pdftex.def)             Requested size: 364.19667pt x 218.51653pt.
 <h4_dml_total_effects.png, id=907, 578.16pt x 289.08pt>
 File: h4_dml_total_effects.png Graphic file (type png)
 <use h4_dml_total_effects.png>
-Package pdftex.def Info: h4_dml_total_effects.png  used on input line 1268.
+Package pdftex.def Info: h4_dml_total_effects.png  used on input line 1275.
 (pdftex.def)             Requested size: 364.19667pt x 182.0949pt.
 
 
@@ -885,7 +888,7 @@ Package pdftex.def Info: h4_dml_total_effects.png  used on input line 1268.
 File: h4_dml_mediation_waterfall.png Graphic file (type png)
 <use h4_dml_mediation_waterfall.png>
 Package pdftex.def Info: h4_dml_mediation_waterfall.png  used on input line 138
-0.
+7.
 (pdftex.def)             Requested size: 364.19667pt x 182.0971pt.
 
 
@@ -894,7 +897,7 @@ Package pdftex.def Info: h4_dml_mediation_waterfall.png  used on input line 138
 [34]
 Chapter 7.
 
-Overfull \hbox (3.80873pt too wide) in paragraph at lines 1424--1431
+Overfull \hbox (3.80873pt too wide) in paragraph at lines 1431--1438
 []\T1/ptm/m/n/12 The sec-ond con-cerns cul-tural trans-mis-sion, which pre-dict
 s both that norms prop-a-gate through
  []
@@ -918,7 +921,7 @@ Chapter 8.
 ]
 Appendix A.
 
-Overfull \hbox (5.29054pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (5.29054pt too wide) in paragraph at lines 1579--1579
 |[]\T1/ptm/b/n/24.88 Full 21-Country Gra-di-ent Steep-ness Ta-
  []
 
@@ -936,12 +939,12 @@ Appendix B.
 <h3_correlation_matrix.png, id=1022, 1003.75pt x 903.375pt>
 File: h3_correlation_matrix.png Graphic file (type png)
 <use h3_correlation_matrix.png>
-Package pdftex.def Info: h3_correlation_matrix.png  used on input line 1690.
+Package pdftex.def Info: h3_correlation_matrix.png  used on input line 1697.
 (pdftex.def)             Requested size: 364.19667pt x 327.77864pt.
 <h3_shap_dependence.png, id=1023, 1003.75pt x 803.0pt>
 File: h3_shap_dependence.png Graphic file (type png)
 <use h3_shap_dependence.png>
-Package pdftex.def Info: h3_shap_dependence.png  used on input line 1697.
+Package pdftex.def Info: h3_shap_dependence.png  used on input line 1704.
 (pdftex.def)             Requested size: 364.19667pt x 291.3588pt.
 
 
@@ -950,9 +953,9 @@ Package pdftex.def Info: h3_shap_dependence.png  used on input line 1697.
 [43 <./h3_shap_dependence.png>]
 Appendix C.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 1708.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 1715.
 
-Overfull \hbox (12.62178pt too wide) in paragraph at lines 1711--1712
+Overfull \hbox (12.62178pt too wide) in paragraph at lines 1718--1719
 []\T1/ptm/m/n/12 Builds Dataset 1: education-specific AS-FRs from \T1/cmtt/m/n/
 12 demo_faeduc\T1/ptm/m/n/12 ,
  []
@@ -968,20 +971,14 @@ Overfull \hbox (12.62178pt too wide) in paragraph at lines 1711--1712
 [46
 
 ]
-
-[47]
-Underfull \hbox (badness 1087) in paragraph at lines 140--144
+Underfull \hbox (badness 1087) in paragraph at lines 135--139
 []\T1/ptm/m/n/12 Eurostat (2026b).  Pop-u-la-tion by ed-u-ca-tional at-tain-men
 t level, sex and age [data set;
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 140--144
-\T1/ptm/m/n/12 edat_lfse_03].  Eu-ro-pean Com-mis-sion.  []$\T1/cmtt/m/n/12 htt
-ps : / / ec . europa . eu / eurostat / data /
- []
 
-
+[47]
 
 [48]
 
@@ -996,10 +993,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3CCEF477923A883075EE1403EC91276C;12654.
  ) 
 Here is how much of TeX's memory you used:
- 13424 strings out of 473190
- 208606 string characters out of 5715800
- 622394 words of memory out of 5000000
- 36237 multiletter control sequences out of 15000+600000
+ 13445 strings out of 473190
+ 209130 string characters out of 5715800
+ 623659 words of memory out of 5000000
+ 36255 multiletter control sequences out of 15000+600000
  643273 words of font info for 171 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,489b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1014,10 +1011,10 @@ cal/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on main.pdf (60 pages, 1839758 bytes).
+Output written on main.pdf (60 pages, 1840761 bytes).
 PDF statistics:
- 1186 PDF objects out of 1200 (max. 8388607)
- 1072 compressed objects within 11 object streams
- 221 named destinations out of 1000 (max. 500000)
+ 1188 PDF objects out of 1200 (max. 8388607)
+ 1074 compressed objects within 11 object streams
+ 220 named destinations out of 1000 (max. 500000)
  530 words of extra memory for PDF output out of 10000 (max. 10000000)
 
