@@ -1,5 +1,5 @@
 # Demographic-Transition-Fitness-Paradox
-# Has the Wealth-Fertility Relationship Really Inverted?
+# Between Culture and Cost
 ## A Cross-Cohort, Cross-Country Test of the Demographic Transition Fitness Paradox
 
 **MSc Applied Social Data Science**  
@@ -70,23 +70,6 @@ tar_make()
 
 ---
 
-## Pre-registration
-
-The pre-analysis plan is deposited on the Open Science Framework prior to 
-individual-level data analysis:  
-[OSF link — to be added]
-
----
-
-## Citation
-
-If you use any part of this work, please cite:
-
-Roudra Sarkar (2026). *Has the Wealth-Fertility Relationship Really Inverted? 
-A Cross-Cohort, Cross-Country Test of the Demographic Transition Fitness 
-Paradox.* MSc Dissertation, Trinity College Dublin.
-
----
 
 ## Supervisor
 
