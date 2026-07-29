@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 # Between Culture and Cost
+=======
+# Demographic-Transition-Fitness-Paradox
+# Between Culture and Cost
+## A Cross-Cohort, Cross-Country Test of the Demographic Transition Fitness Paradox
+>>>>>>> 702210313f01e132e90492c3b13b5d45c61d8169
 
 **Mechanisms of the education–fertility gradient across Europe and a British cohort**
 
@@ -73,6 +79,7 @@ following the structure described in `01_inspect_data.R`.
 
 ---
 
+<<<<<<< HEAD
 ## The pipeline
 
 Scripts are numbered and **must be run in order** — each depends on objects written by
@@ -215,6 +222,8 @@ If you refer to this work:
 > gradient across Europe and a British cohort.* MSc dissertation, Trinity College Dublin.
 
 ---
+=======
+>>>>>>> 702210313f01e132e90492c3b13b5d45c61d8169
 
 ## Licence
 
