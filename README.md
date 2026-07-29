@@ -77,10 +77,3 @@ R 4.5.1, with: `fixest`, `quantreg`, `clubSandwich`, `xgboost`, `brms`, `DoubleM
 - The ESS file is ~1.4 GB and can exhaust memory; subset on read.
 
 ---
-
-## Citation
-
-> Sarkar, R. (2026). *Between Culture and Cost: Mechanisms of the education–fertility
-> gradient across Europe and a British cohort.* MSc dissertation, Trinity College Dublin.
-
-Code released under the MIT Licence. Data remain subject to their providers' terms.
